@@ -1,5 +1,5 @@
 {
-  "name": "gh-conf-response",
+  "name": "@gh-conf/gh-conf-response",
   "version": "1.0.0",
   "description": "gh-conf response builder",
   "main": "index.js",
