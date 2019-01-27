@@ -1,0 +1,34 @@
+{
+  "name": "gh-conf-response",
+  "version": "1.0.0",
+  "description": "gh-conf response builder",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gh-conf/gh-conf-response.git"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "keywords": [
+    "gf-conf",
+    "github-config",
+    "response",
+    "builder",
+    "error",
+    "success"
+  ],
+  "author": "Arshad Kazmi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gh-conf/gh-conf-response/issues"
+  },
+  "homepage": "https://github.com/gh-conf/gh-conf-response#readme"
+}
