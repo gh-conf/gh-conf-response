@@ -21,13 +21,13 @@ Please consider donating, if you like my work
 ## Install
 
 ```
-$ npm install gh-conf-response
+$ npm install @gh-conf/gh-conf-response
 ```
 
 ## Usage
 
 ```javascript
-const { formatError, formatSuccess } = require('gh-conf-response');
+const { formatError, formatSuccess } = require('@gh-conf/gh-conf-response');
 
 const successResponse = formatSuccess('Successfully passed', { name: 'formatSuccess' });
 console.log(successResponse)
