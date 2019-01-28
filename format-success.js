@@ -3,7 +3,7 @@
  * @param {String} message 
  * @param {Error Object} data 
  */
-const formatSuccess = (message, data) => {
+const formatSuccess = (message, data = {}) => {
 
   return {
     status: 'success',
