@@ -8,7 +8,7 @@ const {
 
 describe('error responses', () => {
   it('should generate error response with empty data', async () => {
-    const response = formatError('Some error message!!!', {});
+    const response = formatError('Some error message!!!');
     expect(response.status).to.equal('err');
     expect(response.message).to.equal('Some error message!!!');
     expect(response.data).to.deep.equal({});
@@ -35,7 +35,7 @@ describe('error responses', () => {
 
 describe('success responses', () => {
   it('should generate success response with empty data', async () => {
-    const response = formatSuccess('Some success message', {});
+    const response = formatSuccess('Some success message');
     expect(response.status).to.equal('success');
     expect(response.message).to.equal('Some success message');
     expect(response.data).to.deep.equal({});
