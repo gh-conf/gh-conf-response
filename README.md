@@ -1,15 +1,11 @@
 # gh-conf-response
 
-Response builder for gh-conf liraries
-
 [![Build Status](https://travis-ci.com/gh-conf/gh-conf-response.svg?branch=master)](https://travis-ci.com/gh-conf/gh-conf-response)
 [![Github Repo Size](https://img.shields.io/github/repo-size/gh-conf/gh-conf-response.svg)](https://github.com/gh-conf/gh-conf-response)
 [![Contributors](https://img.shields.io/github/contributors/gh-conf/gh-conf-response.svg)](https://github.com/gh-conf/gh-conf-response/graphs/contributors)
 [![Commit](https://img.shields.io/github/last-commit/gh-conf/gh-conf-response.svg)](https://github.com/gh-conf/gh-conf-response/commits/master)
 
-
-It reads the github config file and returns it contents.
-It needs respository path as input to read the config.
+Response builder for gh-conf libraries
 
 > Give us a :star: if you like our work :heart:
 
