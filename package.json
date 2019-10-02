@@ -6,6 +6,11 @@
   "directories": {
     "test": "tests"
   },
+  "files": [
+    "index.js",
+    "format-error.js",
+    "format-success.js"
+  ],
   "scripts": {
     "test": "node_modules/mocha/bin/mocha tests/test.js"
   },
