@@ -30,5 +30,6 @@
   "bugs": {
     "url": "https://github.com/gh-conf/gh-conf-response/issues"
   },
-  "homepage": "https://github.com/gh-conf/gh-conf-response#readme"
+  "homepage": "https://github.com/gh-conf/gh-conf-response#readme",
+  "files": ["index.js", "format-error.js" "format-success.js"]
 }
