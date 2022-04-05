@@ -12,11 +12,6 @@ Response builder for gh-conf libraries
 
 > Give us a :star: if you like our work :heart:
 
-<a href="https://www.buymeacoffee.com/gh-conf" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-<a href="https://www.patreon.com/bePatron?u=15454240" target="_blank"><img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron!" height="40"></a>
-
-Please consider donating, if you like my work
-
 ## Install
 
 ```
@@ -26,10 +21,12 @@ $ npm install @gh-conf/gh-conf-response
 ## Usage
 
 ```javascript
-const { formatError, formatSuccess } = require('@gh-conf/gh-conf-response');
+const { formatError, formatSuccess } = require("@gh-conf/gh-conf-response");
 
-const successResponse = formatSuccess('Successfully passed', { name: 'formatSuccess' });
-console.log(successResponse)
+const successResponse = formatSuccess("Successfully passed", {
+  name: "formatSuccess",
+});
+console.log(successResponse);
 // Output
 /**
  * {
@@ -41,9 +38,8 @@ console.log(successResponse)
  * }
  **/
 
-
-const errorResposne = formatError('Error running tests', { err: '101' });
-console.log(successResponse)
+const errorResposne = formatError("Error running tests", { err: "101" });
+console.log(successResponse);
 // Output
 /**
  * {
@@ -54,8 +50,6 @@ console.log(successResponse)
  *  }
  * }
  **/
-
-
 ```
 
 ## Contributing
